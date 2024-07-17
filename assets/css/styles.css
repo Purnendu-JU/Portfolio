@@ -299,8 +299,20 @@ img {
 .skills__js {
   width: 65%;
 }
-.skills__ux {
+.skills__c {
   width: 85%;
+}
+.skills__java {
+  width: 80%;
+}
+.skills__react {
+  width: 75%;
+}
+.skills__node {
+  width: 70%;
+}
+.skills__mongo {
+  width: 60%;
 }
 .skills__img {
   border-radius: 0.5rem;
@@ -466,10 +478,6 @@ img {
     column-gap: 2rem;
     align-items: center;
     text-align: initial;
-  }
-  .work__container {
-    grid-template-columns: repeat(3, 1fr);
-    column-gap: 2rem;
   }
 }
 @media screen and (min-width: 992px) {
